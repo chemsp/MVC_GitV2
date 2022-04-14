@@ -8,6 +8,7 @@ namespace MVC_Git.Controllers
 {
     public class HomeController : Controller
     {
+        List<string > _list = new List<string>();
         public ActionResult Index()
         {
             return View();
